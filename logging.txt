@@ -1,0 +1,465 @@
+Request method:	POST
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Iphone 7",
+    "type": "Mobile",
+    "price": 30000.0,
+    "shipping": 0.0,
+    "upc": "abc",
+    "description": "This is iphone 7",
+    "manufacturer": "Apple",
+    "model": "Iphone 7",
+    "url": "www.apple.com/in",
+    "image": "iphone7.png"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 287
+ETag: W/"11f-tqoIuVVyr100OcRqf4IXxPFTmcY"
+Date: Thu, 28 Oct 2021 12:07:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999955,
+    "name": "Iphone 7",
+    "type": "Mobile",
+    "price": 30000,
+    "shipping": 0,
+    "upc": "abc",
+    "description": "This is iphone 7",
+    "manufacturer": "Apple",
+    "model": "Iphone 7",
+    "url": "www.apple.com/in",
+    "image": "iphone7.png",
+    "updatedAt": "2021-10-28T12:07:26.440Z",
+    "createdAt": "2021-10-28T12:07:26.440Z"
+}
+Request method:	GET
+Request URI:	http://localhost:8080/products/9999955
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 303
+ETag: W/"12f-cyiRqpA2WS68BV6q7LzgCb4UgDE"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999955,
+    "name": "Iphone 7",
+    "type": "Mobile",
+    "price": 30000,
+    "upc": "abc",
+    "shipping": 0,
+    "description": "This is iphone 7",
+    "manufacturer": "Apple",
+    "model": "Iphone 7",
+    "url": "www.apple.com/in",
+    "image": "iphone7.png",
+    "createdAt": "2021-10-28T12:07:26.440Z",
+    "updatedAt": "2021-10-28T12:07:26.440Z",
+    "categories": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Iphone 8",
+    "type": "Mobile",
+    "price": 40000.0,
+    "shipping": 0.0,
+    "upc": "abc",
+    "description": "This is iphone 8",
+    "manufacturer": "Apple",
+    "model": "Iphone 8",
+    "url": "www.apple.com/in",
+    "image": "iphone8.png"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 287
+ETag: W/"11f-rkTE1ZQdbJdxwBYxdh2dhCHBln4"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999956,
+    "name": "Iphone 8",
+    "type": "Mobile",
+    "price": 40000,
+    "shipping": 0,
+    "upc": "abc",
+    "description": "This is iphone 8",
+    "manufacturer": "Apple",
+    "model": "Iphone 8",
+    "url": "www.apple.com/in",
+    "image": "iphone8.png",
+    "updatedAt": "2021-10-28T12:07:27.198Z",
+    "createdAt": "2021-10-28T12:07:27.198Z"
+}
+Request method:	GET
+Request URI:	http://localhost:8080/products/9999956
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 303
+ETag: W/"12f-TUOvq8bEGLc0/yxjrdRJa4gI/48"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999956,
+    "name": "Iphone 8",
+    "type": "Mobile",
+    "price": 40000,
+    "upc": "abc",
+    "shipping": 0,
+    "description": "This is iphone 8",
+    "manufacturer": "Apple",
+    "model": "Iphone 8",
+    "url": "www.apple.com/in",
+    "image": "iphone8.png",
+    "createdAt": "2021-10-28T12:07:27.198Z",
+    "updatedAt": "2021-10-28T12:07:27.198Z",
+    "categories": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Iphone X",
+    "type": "Mobile",
+    "price": 50000.0,
+    "shipping": 0.0,
+    "upc": "abc",
+    "description": "This is iphone X",
+    "manufacturer": "Apple",
+    "model": "Iphone X",
+    "url": "www.apple.com/in",
+    "image": "iphoneX.png"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 287
+ETag: W/"11f-96tJ7F341Aq9tfJmfxfHZavKkWk"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999957,
+    "name": "Iphone X",
+    "type": "Mobile",
+    "price": 50000,
+    "shipping": 0,
+    "upc": "abc",
+    "description": "This is iphone X",
+    "manufacturer": "Apple",
+    "model": "Iphone X",
+    "url": "www.apple.com/in",
+    "image": "iphoneX.png",
+    "updatedAt": "2021-10-28T12:07:27.430Z",
+    "createdAt": "2021-10-28T12:07:27.430Z"
+}
+Request method:	GET
+Request URI:	http://localhost:8080/products/9999957
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 303
+ETag: W/"12f-HCqr5KI36aP3kaW23kXZY2VLIoM"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999957,
+    "name": "Iphone X",
+    "type": "Mobile",
+    "price": 50000,
+    "upc": "abc",
+    "shipping": 0,
+    "description": "This is iphone X",
+    "manufacturer": "Apple",
+    "model": "Iphone X",
+    "url": "www.apple.com/in",
+    "image": "iphoneX.png",
+    "createdAt": "2021-10-28T12:07:27.430Z",
+    "updatedAt": "2021-10-28T12:07:27.430Z",
+    "categories": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Iphone XR",
+    "type": "Mobile",
+    "price": 35000.0,
+    "shipping": 100.0,
+    "upc": "123.0",
+    "description": "This is iphone XR",
+    "manufacturer": "Apple",
+    "model": "Iphone XR",
+    "url": "www.apple.com/in",
+    "image": "iphoneXR.png"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 295
+ETag: W/"127-mPisByMmoWvz0z/9LbwrFbxbWWU"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999958,
+    "name": "Iphone XR",
+    "type": "Mobile",
+    "price": 35000,
+    "shipping": 100,
+    "upc": "123.0",
+    "description": "This is iphone XR",
+    "manufacturer": "Apple",
+    "model": "Iphone XR",
+    "url": "www.apple.com/in",
+    "image": "iphoneXR.png",
+    "updatedAt": "2021-10-28T12:07:27.551Z",
+    "createdAt": "2021-10-28T12:07:27.551Z"
+}
+Request method:	GET
+Request URI:	http://localhost:8080/products/9999958
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 311
+ETag: W/"137-FgPDQ4dgEZNIAThizRSLWWTb8GQ"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999958,
+    "name": "Iphone XR",
+    "type": "Mobile",
+    "price": 35000,
+    "upc": "123.0",
+    "shipping": 100,
+    "description": "This is iphone XR",
+    "manufacturer": "Apple",
+    "model": "Iphone XR",
+    "url": "www.apple.com/in",
+    "image": "iphoneXR.png",
+    "createdAt": "2021-10-28T12:07:27.551Z",
+    "updatedAt": "2021-10-28T12:07:27.551Z",
+    "categories": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Iphone 12",
+    "type": "Mobile",
+    "price": 45000.0,
+    "shipping": 200.0,
+    "upc": "abc",
+    "description": "$%^&",
+    "manufacturer": "Apple",
+    "model": "Iphone 12",
+    "url": "www.apple.com/in",
+    "image": "iphone12.png"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 280
+ETag: W/"118-g4BNjq/HQjDHFkHV8UpyO/nq9EM"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999959,
+    "name": "Iphone 12",
+    "type": "Mobile",
+    "price": 45000,
+    "shipping": 200,
+    "upc": "abc",
+    "description": "$%^&",
+    "manufacturer": "Apple",
+    "model": "Iphone 12",
+    "url": "www.apple.com/in",
+    "image": "iphone12.png",
+    "updatedAt": "2021-10-28T12:07:27.668Z",
+    "createdAt": "2021-10-28T12:07:27.668Z"
+}
+Request method:	GET
+Request URI:	http://localhost:8080/products/9999959
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 296
+ETag: W/"128-lbbD1Hc+xN6bpSiId3wgdR+jTzk"
+Date: Thu, 28 Oct 2021 12:07:27 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 9999959,
+    "name": "Iphone 12",
+    "type": "Mobile",
+    "price": 45000,
+    "upc": "abc",
+    "shipping": 200,
+    "description": "$%^&",
+    "manufacturer": "Apple",
+    "model": "Iphone 12",
+    "url": "www.apple.com/in",
+    "image": "iphone12.png",
+    "createdAt": "2021-10-28T12:07:27.668Z",
+    "updatedAt": "2021-10-28T12:07:27.668Z",
+    "categories": [
+        
+    ]
+}

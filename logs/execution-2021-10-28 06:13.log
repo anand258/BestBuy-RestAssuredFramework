@@ -1,0 +1,56 @@
+18:13:39.914 [main] INFO  org.example.tests.AddProductTest - initiating post request
+18:13:39.921 [main] INFO  org.example.tests.AddProductTest - asserting post request status code
+18:13:39.930 [main] INFO  org.example.tests.AddProductTest - retrieving product id
+18:13:39.944 [main] INFO  org.example.tests.AddProductTest - initiating get request
+18:13:39.944 [main] INFO  org.example.tests.AddProductTest - asserting get request status code
+18:13:40.045 [main] INFO  org.example.tests.AddProductTest - asserting other fields
+18:13:40.046 [main] INFO  org.example.tests.AddProductTest - Setting contentType
+18:13:40.064 [main] INFO  org.example.tests.AddProductTest - initiating post request
+18:13:40.064 [main] INFO  org.example.tests.AddProductTest - asserting post request status code
+18:13:40.072 [main] INFO  org.example.tests.AddProductTest - retrieving product id
+18:13:40.090 [main] INFO  org.example.tests.AddProductTest - initiating get request
+18:13:40.090 [main] INFO  org.example.tests.AddProductTest - asserting get request status code
+18:13:40.166 [main] INFO  org.example.tests.AddProductTest - asserting other fields
+18:13:40.167 [main] INFO  org.example.tests.AddProductTest - Setting contentType
+18:13:40.200 [main] INFO  org.example.tests.AddProductTest - initiating post request
+18:13:40.200 [main] INFO  org.example.tests.AddProductTest - asserting post request status code
+18:13:40.216 [main] INFO  org.example.tests.AddProductTest - retrieving product id
+18:13:40.236 [main] INFO  org.example.tests.AddProductTest - initiating get request
+18:13:40.237 [main] INFO  org.example.tests.AddProductTest - asserting get request status code
+18:13:40.349 [main] INFO  org.example.tests.AddProductTest - asserting other fields
+18:13:40.350 [main] INFO  org.example.tests.AddProductTest - Setting contentType
+18:13:40.377 [main] INFO  org.example.tests.AddProductTest - initiating post request
+18:13:40.377 [main] INFO  org.example.tests.AddProductTest - asserting post request status code
+18:13:40.385 [main] INFO  org.example.tests.AddProductTest - retrieving product id
+18:13:40.396 [main] INFO  org.example.tests.AddProductTest - initiating get request
+18:13:40.396 [main] INFO  org.example.tests.AddProductTest - asserting get request status code
+18:13:40.506 [main] INFO  org.example.tests.AddProductTest - asserting other fields
+18:13:40.544 [main] INFO  org.example.tests.DeleteProductTest - Setting contentType
+18:13:40.568 [main] INFO  org.example.tests.DeleteProductTest - initiating post request
+18:13:40.569 [main] INFO  org.example.tests.DeleteProductTest - asserting post request status code
+18:13:40.576 [main] INFO  org.example.tests.DeleteProductTest - retrieving product id
+18:13:40.587 [main] INFO  org.example.tests.DeleteProductTest - initiating get request
+18:13:40.587 [main] INFO  org.example.tests.DeleteProductTest - asserting get request status code
+18:13:40.601 [main] INFO  org.example.tests.DeleteProductTest - initiating delete request
+18:13:40.601 [main] INFO  org.example.tests.DeleteProductTest - asserting delete request status code
+18:13:40.614 [main] INFO  org.example.tests.DeleteProductTest - again initiating get request
+18:13:40.614 [main] INFO  org.example.tests.DeleteProductTest - asserting get request status code
+18:13:40.625 [main] INFO  org.example.tests.DeleteProductTest - asserting msg fields
+18:13:40.627 [main] INFO  org.example.tests.DeleteProductTest - Setting contentType
+18:13:40.648 [main] INFO  org.example.tests.DeleteProductTest - initiating post request
+18:13:40.648 [main] INFO  org.example.tests.DeleteProductTest - asserting post request status code
+18:13:40.657 [main] INFO  org.example.tests.DeleteProductTest - retrieving product id
+18:13:40.666 [main] INFO  org.example.tests.DeleteProductTest - initiating get request
+18:13:40.666 [main] INFO  org.example.tests.DeleteProductTest - asserting get request status code
+18:13:40.676 [main] INFO  org.example.tests.DeleteProductTest - initiating delete request
+18:13:40.676 [main] INFO  org.example.tests.DeleteProductTest - asserting delete request status code
+18:13:40.688 [main] INFO  org.example.tests.DeleteProductTest - again initiating get request
+18:13:40.688 [main] INFO  org.example.tests.DeleteProductTest - asserting get request status code
+18:13:40.699 [main] INFO  org.example.tests.DeleteProductTest - asserting msg fields
+18:13:40.701 [main] INFO  org.example.tests.DeleteProductTest - Setting contentType
+18:13:40.725 [main] INFO  org.example.tests.DeleteProductTest - initiating post request
+18:13:40.725 [main] INFO  org.example.tests.DeleteProductTest - asserting post request status code
+18:13:40.740 [main] INFO  org.example.tests.DeleteProductTest - retrieving product id
+18:13:40.758 [main] INFO  org.example.tests.DeleteProductTest - initiating get request
+18:13:40.758 [main] INFO  org.example.tests.DeleteProductTest - asserting get request status code
+18:13:40.773 [main] INFO  org.example.tests.DeleteProductTest - initiating delete request
